@@ -25,7 +25,7 @@ export const PaymentMethod = () => {
           }}
           grabCursor={true}
           loop={true}
-          speed={2000}
+          speed={10000}
         >
           <div className='absolute flex'>
             {dataPaymentMethods.map(({ id, image }) => (
